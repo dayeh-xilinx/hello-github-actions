@@ -3,10 +3,8 @@ on: push
 
 jobs:
   build:
-    name: Hello world action
-    runs-on: ubuntu-latest
+    name: u200q test on xcosda24
+    runs-on: xrtU200Poolq
     steps:
-      - uses: actions/checkout@v1
-      - uses: ./action-a
-        with:
-          MY_NAME: "Mona"
+      - name: first
+        run: uname -a
