@@ -6,6 +6,7 @@ jobs:
     name: try xcolinlocbld11
     runs-on: dayeh-xcolinlocbld11
     steps:
-      - name: first
-        run: uname -a
+      - name: rundocker
+        uses: docker://artifactory.xilinx.com/xrt-build-docker-images-local/xrt-ubuntu1804
+
  
