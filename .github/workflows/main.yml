@@ -3,8 +3,8 @@ on: push
 
 jobs:
   build:
-    name: u200q test on xcosda24
-    runs-on: xrtU200Poolq
+    name: try xcolinlocbld11
+    runs-on: dayeh-xcolinlocbld11
     steps:
       - name: first
         run: uname -a
